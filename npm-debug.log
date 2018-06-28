@@ -1,0 +1,375 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/aadhiv/.nvm/versions/node/v6.10.0/bin/node',
+1 verbose cli   '/Users/aadhiv/.nvm/versions/node/v6.10.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'body-parser',
+1 verbose cli   'cloudinary',
+1 verbose cli   'connect-multi-party',
+1 verbose cli   'ejs',
+1 verbose cli   'express',
+1 verbose cli   'mongoose' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData body-parser
+8 silly fetchPackageMetaData cloudinary
+9 silly fetchPackageMetaData connect-multi-party
+10 silly fetchPackageMetaData ejs
+11 silly fetchPackageMetaData express
+12 silly fetchPackageMetaData mongoose
+13 silly fetchNamedPackageData body-parser
+14 silly mapToRegistry name body-parser
+15 silly mapToRegistry scope (from config) @q4
+16 silly mapToRegistry registry http://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: 'body-parser',
+17 silly mapToRegistry   scope: null,
+17 silly mapToRegistry   escapedName: 'body-parser',
+17 silly mapToRegistry   name: 'body-parser',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag' }
+18 silly mapToRegistry uri http://registry.npmjs.org/body-parser
+19 silly fetchNamedPackageData cloudinary
+20 silly mapToRegistry name cloudinary
+21 silly mapToRegistry scope (from config) @q4
+22 silly mapToRegistry registry http://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'cloudinary',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'cloudinary',
+23 silly mapToRegistry   name: 'cloudinary',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri http://registry.npmjs.org/cloudinary
+25 silly fetchNamedPackageData connect-multi-party
+26 silly mapToRegistry name connect-multi-party
+27 silly mapToRegistry scope (from config) @q4
+28 silly mapToRegistry registry http://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'connect-multi-party',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'connect-multi-party',
+29 silly mapToRegistry   name: 'connect-multi-party',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri http://registry.npmjs.org/connect-multi-party
+31 silly fetchNamedPackageData ejs
+32 silly mapToRegistry name ejs
+33 silly mapToRegistry scope (from config) @q4
+34 silly mapToRegistry registry http://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'ejs',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'ejs',
+35 silly mapToRegistry   name: 'ejs',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri http://registry.npmjs.org/ejs
+37 silly fetchNamedPackageData express
+38 silly mapToRegistry name express
+39 silly mapToRegistry scope (from config) @q4
+40 silly mapToRegistry registry http://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'express',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'express',
+41 silly mapToRegistry   name: 'express',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri http://registry.npmjs.org/express
+43 silly fetchNamedPackageData mongoose
+44 silly mapToRegistry name mongoose
+45 silly mapToRegistry scope (from config) @q4
+46 silly mapToRegistry registry http://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'mongoose',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'mongoose',
+47 silly mapToRegistry   name: 'mongoose',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri http://registry.npmjs.org/mongoose
+49 verbose request uri http://registry.npmjs.org/connect-multi-party
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 4:45:27 PM
+52 verbose request using bearer token for auth
+53 verbose request id a7e27c26259d439c
+54 http request GET http://registry.npmjs.org/connect-multi-party
+55 verbose request uri http://registry.npmjs.org/cloudinary
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 4:45:27 PM
+58 verbose request using bearer token for auth
+59 http request GET http://registry.npmjs.org/cloudinary
+60 verbose request uri http://registry.npmjs.org/body-parser
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 4:45:27 PM
+63 verbose request using bearer token for auth
+64 verbose etag "5adbbfa8-237ed"
+65 verbose lastModified Sat, 21 Apr 2018 22:48:08 GMT
+66 http request GET http://registry.npmjs.org/body-parser
+67 verbose request uri http://registry.npmjs.org/ejs
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 4:45:27 PM
+70 verbose request using bearer token for auth
+71 verbose etag W/"58b3c85c-10926"
+72 verbose lastModified Mon, 27 Feb 2017 06:34:04 GMT
+73 http request GET http://registry.npmjs.org/ejs
+74 http 200 http://registry.npmjs.org/ejs
+75 verbose headers { date: 'Thu, 28 Jun 2018 20:45:27 GMT',
+75 verbose headers   'content-type': 'application/json; charset=UTF-8',
+75 verbose headers   'transfer-encoding': 'chunked',
+75 verbose headers   connection: 'keep-alive',
+75 verbose headers   'set-cookie': [ '__cfduid=d851d1f44eefedab5a95dab52713f5a101530218727; expires=Fri, 28-Jun-19 20:45:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+75 verbose headers   'cache-control': 'max-age=300',
+75 verbose headers   'cf-cache-status': 'HIT',
+75 verbose headers   'cf-ray': '4322ff459035ab6c-YYZ',
+75 verbose headers   etag: 'W/"17682c484328abcd2ddf27bad35a86eb"',
+75 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+75 verbose headers   'last-modified': 'Sat, 26 May 2018 22:51:16 GMT',
+75 verbose headers   vary: 'accept-encoding, accept',
+75 verbose headers   server: 'cloudflare',
+75 verbose headers   'content-encoding': 'gzip' }
+76 silly get cb [ 200,
+76 silly get   { date: 'Thu, 28 Jun 2018 20:45:27 GMT',
+76 silly get     'content-type': 'application/json; charset=UTF-8',
+76 silly get     'transfer-encoding': 'chunked',
+76 silly get     connection: 'keep-alive',
+76 silly get     'set-cookie': [ '__cfduid=d851d1f44eefedab5a95dab52713f5a101530218727; expires=Fri, 28-Jun-19 20:45:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+76 silly get     'cache-control': 'max-age=300',
+76 silly get     'cf-cache-status': 'HIT',
+76 silly get     'cf-ray': '4322ff459035ab6c-YYZ',
+76 silly get     etag: 'W/"17682c484328abcd2ddf27bad35a86eb"',
+76 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+76 silly get     'last-modified': 'Sat, 26 May 2018 22:51:16 GMT',
+76 silly get     vary: 'accept-encoding, accept',
+76 silly get     server: 'cloudflare',
+76 silly get     'content-encoding': 'gzip' } ]
+77 verbose get saving ejs to /Users/aadhiv/.npm/registry.npmjs.org/ejs/.cache.json
+78 verbose correctMkdir /Users/aadhiv/.npm correctMkdir not in flight; initializing
+79 http 200 http://registry.npmjs.org/body-parser
+80 verbose headers { date: 'Thu, 28 Jun 2018 20:45:27 GMT',
+80 verbose headers   'content-type': 'application/json; charset=UTF-8',
+80 verbose headers   'transfer-encoding': 'chunked',
+80 verbose headers   connection: 'keep-alive',
+80 verbose headers   'set-cookie': [ '__cfduid=d7599d5b73dd6aecaed52c80d88b2d1e81530218727; expires=Fri, 28-Jun-19 20:45:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+80 verbose headers   'cache-control': 'max-age=300',
+80 verbose headers   'cf-cache-status': 'HIT',
+80 verbose headers   'cf-ray': '4322ff45905c302a-YYZ',
+80 verbose headers   etag: 'W/"5a71736e4791aa484a50a6e71d2c32e6"',
+80 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+80 verbose headers   'last-modified': 'Thu, 28 Jun 2018 07:11:37 GMT',
+80 verbose headers   vary: 'accept-encoding, accept',
+80 verbose headers   server: 'cloudflare',
+80 verbose headers   'content-encoding': 'gzip' }
+81 silly get cb [ 200,
+81 silly get   { date: 'Thu, 28 Jun 2018 20:45:27 GMT',
+81 silly get     'content-type': 'application/json; charset=UTF-8',
+81 silly get     'transfer-encoding': 'chunked',
+81 silly get     connection: 'keep-alive',
+81 silly get     'set-cookie': [ '__cfduid=d7599d5b73dd6aecaed52c80d88b2d1e81530218727; expires=Fri, 28-Jun-19 20:45:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+81 silly get     'cache-control': 'max-age=300',
+81 silly get     'cf-cache-status': 'HIT',
+81 silly get     'cf-ray': '4322ff45905c302a-YYZ',
+81 silly get     etag: 'W/"5a71736e4791aa484a50a6e71d2c32e6"',
+81 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+81 silly get     'last-modified': 'Thu, 28 Jun 2018 07:11:37 GMT',
+81 silly get     vary: 'accept-encoding, accept',
+81 silly get     server: 'cloudflare',
+81 silly get     'content-encoding': 'gzip' } ]
+82 verbose get saving body-parser to /Users/aadhiv/.npm/registry.npmjs.org/body-parser/.cache.json
+83 verbose correctMkdir /Users/aadhiv/.npm correctMkdir not in flight; initializing
+84 http 200 http://registry.npmjs.org/cloudinary
+85 verbose headers { date: 'Thu, 28 Jun 2018 20:45:27 GMT',
+85 verbose headers   'content-type': 'application/json; charset=UTF-8',
+85 verbose headers   'transfer-encoding': 'chunked',
+85 verbose headers   connection: 'keep-alive',
+85 verbose headers   'set-cookie': [ '__cfduid=d84d4a63e30e4829c73ce5d51941b80e41530218727; expires=Fri, 28-Jun-19 20:45:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+85 verbose headers   'cache-control': 'max-age=300',
+85 verbose headers   'cf-cache-status': 'HIT',
+85 verbose headers   'cf-ray': '4322ff4597d7ab90-YYZ',
+85 verbose headers   etag: 'W/"956daaca5e617e5c8f88dd87e908c4a9"',
+85 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+85 verbose headers   'last-modified': 'Sat, 26 May 2018 20:04:02 GMT',
+85 verbose headers   vary: 'accept-encoding, accept',
+85 verbose headers   server: 'cloudflare',
+85 verbose headers   'content-encoding': 'gzip' }
+86 silly get cb [ 200,
+86 silly get   { date: 'Thu, 28 Jun 2018 20:45:27 GMT',
+86 silly get     'content-type': 'application/json; charset=UTF-8',
+86 silly get     'transfer-encoding': 'chunked',
+86 silly get     connection: 'keep-alive',
+86 silly get     'set-cookie': [ '__cfduid=d84d4a63e30e4829c73ce5d51941b80e41530218727; expires=Fri, 28-Jun-19 20:45:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+86 silly get     'cache-control': 'max-age=300',
+86 silly get     'cf-cache-status': 'HIT',
+86 silly get     'cf-ray': '4322ff4597d7ab90-YYZ',
+86 silly get     etag: 'W/"956daaca5e617e5c8f88dd87e908c4a9"',
+86 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+86 silly get     'last-modified': 'Sat, 26 May 2018 20:04:02 GMT',
+86 silly get     vary: 'accept-encoding, accept',
+86 silly get     server: 'cloudflare',
+86 silly get     'content-encoding': 'gzip' } ]
+87 verbose get saving cloudinary to /Users/aadhiv/.npm/registry.npmjs.org/cloudinary/.cache.json
+88 verbose correctMkdir /Users/aadhiv/.npm correctMkdir not in flight; initializing
+89 verbose request uri http://registry.npmjs.org/express
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 4:45:27 PM
+92 verbose request using bearer token for auth
+93 verbose etag "5a991cd3-940b8"
+94 verbose lastModified Fri, 2 Mar 2018 9:43:47 GMT
+95 http request GET http://registry.npmjs.org/express
+96 http 200 http://registry.npmjs.org/express
+97 verbose headers { date: 'Thu, 28 Jun 2018 20:45:27 GMT',
+97 verbose headers   'content-type': 'application/json; charset=UTF-8',
+97 verbose headers   'transfer-encoding': 'chunked',
+97 verbose headers   connection: 'keep-alive',
+97 verbose headers   'set-cookie': [ '__cfduid=d851d1f44eefedab5a95dab52713f5a101530218727; expires=Fri, 28-Jun-19 20:45:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+97 verbose headers   'cache-control': 'max-age=300',
+97 verbose headers   'cf-cache-status': 'HIT',
+97 verbose headers   'cf-ray': '4322ff46807dab6c-YYZ',
+97 verbose headers   etag: 'W/"e6503c8c1e99ebf156ea4c24d986347e"',
+97 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+97 verbose headers   'last-modified': 'Sun, 27 May 2018 00:12:56 GMT',
+97 verbose headers   vary: 'accept-encoding, accept',
+97 verbose headers   server: 'cloudflare',
+97 verbose headers   'content-encoding': 'gzip' }
+98 silly get cb [ 200,
+98 silly get   { date: 'Thu, 28 Jun 2018 20:45:27 GMT',
+98 silly get     'content-type': 'application/json; charset=UTF-8',
+98 silly get     'transfer-encoding': 'chunked',
+98 silly get     connection: 'keep-alive',
+98 silly get     'set-cookie': [ '__cfduid=d851d1f44eefedab5a95dab52713f5a101530218727; expires=Fri, 28-Jun-19 20:45:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+98 silly get     'cache-control': 'max-age=300',
+98 silly get     'cf-cache-status': 'HIT',
+98 silly get     'cf-ray': '4322ff46807dab6c-YYZ',
+98 silly get     etag: 'W/"e6503c8c1e99ebf156ea4c24d986347e"',
+98 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+98 silly get     'last-modified': 'Sun, 27 May 2018 00:12:56 GMT',
+98 silly get     vary: 'accept-encoding, accept',
+98 silly get     server: 'cloudflare',
+98 silly get     'content-encoding': 'gzip' } ]
+99 verbose get saving express to /Users/aadhiv/.npm/registry.npmjs.org/express/.cache.json
+100 verbose correctMkdir /Users/aadhiv/.npm correctMkdir not in flight; initializing
+101 verbose request uri http://registry.npmjs.org/mongoose
+102 verbose request no auth needed
+103 info attempt registry request try #1 at 4:45:27 PM
+104 verbose request using bearer token for auth
+105 verbose etag "5a2da679-abd21"
+106 verbose lastModified Sun, 10 Dec 2017 21:26:17 GMT
+107 http request GET http://registry.npmjs.org/mongoose
+108 http 200 http://registry.npmjs.org/mongoose
+109 verbose headers { date: 'Thu, 28 Jun 2018 20:45:27 GMT',
+109 verbose headers   'content-type': 'application/json; charset=UTF-8',
+109 verbose headers   'transfer-encoding': 'chunked',
+109 verbose headers   connection: 'keep-alive',
+109 verbose headers   'set-cookie': [ '__cfduid=d7599d5b73dd6aecaed52c80d88b2d1e81530218727; expires=Fri, 28-Jun-19 20:45:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+109 verbose headers   'cache-control': 'max-age=300',
+109 verbose headers   'cf-cache-status': 'HIT',
+109 verbose headers   'cf-ray': '4322ff470091302a-YYZ',
+109 verbose headers   etag: 'W/"dba5d7fabe184558c1fa109bd8daebdf"',
+109 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+109 verbose headers   'last-modified': 'Tue, 26 Jun 2018 19:31:27 GMT',
+109 verbose headers   vary: 'accept-encoding, accept',
+109 verbose headers   server: 'cloudflare',
+109 verbose headers   'content-encoding': 'gzip' }
+110 silly get cb [ 200,
+110 silly get   { date: 'Thu, 28 Jun 2018 20:45:27 GMT',
+110 silly get     'content-type': 'application/json; charset=UTF-8',
+110 silly get     'transfer-encoding': 'chunked',
+110 silly get     connection: 'keep-alive',
+110 silly get     'set-cookie': [ '__cfduid=d7599d5b73dd6aecaed52c80d88b2d1e81530218727; expires=Fri, 28-Jun-19 20:45:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+110 silly get     'cache-control': 'max-age=300',
+110 silly get     'cf-cache-status': 'HIT',
+110 silly get     'cf-ray': '4322ff470091302a-YYZ',
+110 silly get     etag: 'W/"dba5d7fabe184558c1fa109bd8daebdf"',
+110 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+110 silly get     'last-modified': 'Tue, 26 Jun 2018 19:31:27 GMT',
+110 silly get     vary: 'accept-encoding, accept',
+110 silly get     server: 'cloudflare',
+110 silly get     'content-encoding': 'gzip' } ]
+111 verbose get saving mongoose to /Users/aadhiv/.npm/registry.npmjs.org/mongoose/.cache.json
+112 verbose correctMkdir /Users/aadhiv/.npm correctMkdir not in flight; initializing
+113 http 404 http://registry.npmjs.org/connect-multi-party
+114 verbose headers { date: 'Thu, 28 Jun 2018 20:45:27 GMT',
+114 verbose headers   'content-type': 'application/json',
+114 verbose headers   'content-length': '21',
+114 verbose headers   connection: 'keep-alive',
+114 verbose headers   'set-cookie': [ '__cfduid=d447290c1305b19396d340249e89a0a311530218727; expires=Fri, 28-Jun-19 20:45:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+114 verbose headers   'cache-control': 'max-age=300',
+114 verbose headers   'cf-cache-status': 'MISS',
+114 verbose headers   'cf-ray': '4322ff45938c27c2-YYZ',
+114 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+114 verbose headers   vary: 'accept-encoding, accept',
+114 verbose headers   server: 'cloudflare' }
+115 silly get cb [ 404,
+115 silly get   { date: 'Thu, 28 Jun 2018 20:45:27 GMT',
+115 silly get     'content-type': 'application/json',
+115 silly get     'content-length': '21',
+115 silly get     connection: 'keep-alive',
+115 silly get     'set-cookie': [ '__cfduid=d447290c1305b19396d340249e89a0a311530218727; expires=Fri, 28-Jun-19 20:45:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+115 silly get     'cache-control': 'max-age=300',
+115 silly get     'cf-cache-status': 'MISS',
+115 silly get     'cf-ray': '4322ff45938c27c2-YYZ',
+115 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+115 silly get     vary: 'accept-encoding, accept',
+115 silly get     server: 'cloudflare' } ]
+116 silly fetchPackageMetaData Error: Not found : connect-multi-party
+116 silly fetchPackageMetaData     at makeError (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+116 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+116 silly fetchPackageMetaData     at Request._callback (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+116 silly fetchPackageMetaData     at Request.self.callback (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/request/request.js:187:22)
+116 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+116 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+116 silly fetchPackageMetaData     at Request.<anonymous> (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+116 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+116 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+116 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/request/request.js:969:12)
+116 silly fetchPackageMetaData  error for connect-multi-party { Error: Not found : connect-multi-party
+116 silly fetchPackageMetaData     at makeError (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+116 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+116 silly fetchPackageMetaData     at Request._callback (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+116 silly fetchPackageMetaData     at Request.self.callback (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/request/request.js:187:22)
+116 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+116 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+116 silly fetchPackageMetaData     at Request.<anonymous> (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+116 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+116 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+116 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/request/request.js:969:12) pkgid: 'connect-multi-party', statusCode: 404, code: 'E404' }
+117 silly rollbackFailedOptional Starting
+118 silly rollbackFailedOptional Finishing
+119 silly runTopLevelLifecycles Finishing
+120 silly install printInstalled
+121 verbose stack Error: Not found : connect-multi-party
+121 verbose stack     at makeError (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+121 verbose stack     at CachingRegistryClient.<anonymous> (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+121 verbose stack     at Request._callback (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+121 verbose stack     at Request.self.callback (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/request/request.js:187:22)
+121 verbose stack     at emitTwo (events.js:106:13)
+121 verbose stack     at Request.emit (events.js:191:7)
+121 verbose stack     at Request.<anonymous> (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+121 verbose stack     at emitOne (events.js:96:13)
+121 verbose stack     at Request.emit (events.js:188:7)
+121 verbose stack     at IncomingMessage.<anonymous> (/Users/aadhiv/.nvm/versions/node/v6.10.0/lib/node_modules/npm/node_modules/request/request.js:969:12)
+122 verbose statusCode 404
+123 verbose pkgid connect-multi-party
+124 verbose cwd /Users/aadhiv/Sandbox/cloudinary/instagram
+125 error Darwin 17.6.0
+126 error argv "/Users/aadhiv/.nvm/versions/node/v6.10.0/bin/node" "/Users/aadhiv/.nvm/versions/node/v6.10.0/bin/npm" "install" "--save" "body-parser" "cloudinary" "connect-multi-party" "ejs" "express" "mongoose"
+127 error node v6.10.0
+128 error npm  v3.10.10
+129 error code E404
+130 error 404 Not found : connect-multi-party
+131 error 404
+132 error 404 'connect-multi-party' is not in the npm registry.
+133 error 404 You should bug the author to publish it (or use the name yourself!)
+134 error 404 Note that you can also install from a
+135 error 404 tarball, folder, http url, or git url.
+136 verbose exit [ 1, true ]
